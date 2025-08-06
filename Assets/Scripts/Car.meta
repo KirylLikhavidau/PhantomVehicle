@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Car.meta
 guid: 2a2ffc2e27f7c4e4f927dbd63f786812
 folderAsset: yes
 DefaultImporter:
+========
+guid: db6b031d044312a4f9b11610695bcbcc
+NativeFormatImporter:
+>>>>>>>> d7dbc6c1052892b8c23e191ae554d8c39eea328d:Assets/Resources/SceneMaterials/DefaultMaterial.mat.meta
   externalObjects: {}
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

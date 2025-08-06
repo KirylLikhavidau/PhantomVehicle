@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Input.meta
 guid: 2837ca6b5416df042b743163a1b90e70
 folderAsset: yes
 DefaultImporter:
+========
+guid: 2a683c47b7c201547a04fa30146f2efe
+PrefabImporter:
+>>>>>>>> d7dbc6c1052892b8c23e191ae554d8c39eea328d:Assets/Prefabs/Cars/PhantomCar.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
