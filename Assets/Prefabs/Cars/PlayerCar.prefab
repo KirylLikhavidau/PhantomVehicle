@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 3719601771998238319}
   - component: {fileID: 2784705923914245762}
   - component: {fileID: 7678185242430614419}
+  - component: {fileID: 6660137427336544381}
   m_Layer: 0
   m_Name: PlayerCar
   m_TagString: Untagged
@@ -400,6 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228805c2cfb68164680169bec503f811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerCar: 1
   springForce: 40000
   springDamper: 3000
   MaxSpeed: 100
@@ -869,14 +871,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258cb29156ca446438970f126018280b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Trigger: {fileID: 0}
+  Controller: {fileID: 304521787368027762}
   StartButton: {fileID: 0}
   RigidBody: {fileID: 2432472824736894452}
-  _defaultPosition: {x: 0, y: 0, z: 0}
-  _controller: {fileID: 304521787368027762}
-  _audio:
-  - {fileID: 4597759574023272405}
-  - {fileID: 5920238656476863084}
-  _trigger: {fileID: 0}
+  _audioListener: {fileID: 0}
+--- !u!114 &6660137427336544381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2499104433972289887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444a2ab7703403a418cd60de67f08b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerCar: {fileID: 7678185242430614419}
+  _playerController: {fileID: 304521787368027762}
 --- !u!1 &2842656485019666033
 GameObject:
   m_ObjectHideFlags: 0

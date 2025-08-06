@@ -1,17 +1,18 @@
-﻿using Ashsvp;
+﻿using System;
 using System.Threading.Tasks;
 using UnityEngine;
 
 public class PlayerCar : Car
 {
-    [SerializeField] private SimcadeVehicleController _controller;
     [SerializeField] private AudioListener _audioListener;
-    [SerializeField] protected FinishZone _trigger;
+
+    public event Action RaceStarted;
+    public event Action RaceFinished;
 
     private async void Start()
     {
         await Task.Delay(300);
-        _controller.enabled = false;
+        Controller.enabled = false;
     }
 
     protected override void OnEnable()
@@ -20,14 +21,16 @@ public class PlayerCar : Car
         StartButton.onClick.AddListener(async () =>
         {
             await Task.Delay(1000);
-            _controller.enabled = true;
+            Controller.enabled = true;
             _audioListener.enabled = true;
+            RaceStarted?.Invoke();
         });
 
-        _trigger.CarFinished += (obj) => 
+        Trigger.CarFinished += (obj) => 
         {
-            _controller.enabled = false;
+            Controller.enabled = false;
             _audioListener.enabled = false;
+            RaceFinished?.Invoke();
 
             RigidBody.linearVelocity = Vector3.zero;
             RigidBody.transform.position = DefaultPosition;
@@ -41,14 +44,16 @@ public class PlayerCar : Car
         StartButton.onClick.RemoveListener(async () =>
         {
             await Task.Delay(1000);
-            _controller.enabled = true;
+            Controller.enabled = true;
             _audioListener.enabled = true;
+            RaceStarted?.Invoke();
         });
 
-        _trigger.CarFinished -= (obj) =>
+        Trigger.CarFinished -= (obj) =>
         {
-            _controller.enabled = false;
+            Controller.enabled = false;
             _audioListener.enabled = false;
+            RaceFinished?.Invoke();
 
             RigidBody.linearVelocity = Vector3.zero;
             RigidBody.transform.position = DefaultPosition;

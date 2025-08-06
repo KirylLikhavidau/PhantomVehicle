@@ -1,8 +1,12 @@
-﻿using UnityEngine;
+﻿using Ashsvp;
+using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.UI;
 
 public abstract class Car : MonoBehaviour
 {
+    [SerializeField] protected FinishZone Trigger;
+    [SerializeField] protected SimcadeVehicleController Controller;
     [SerializeField] protected Button StartButton;
     [SerializeField] protected Rigidbody RigidBody;
 
