@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,6 +6,9 @@ namespace Ashsvp
 {
     public class SimcadeVehicleController : MonoBehaviour
     {
+        [Header("Player")]
+        [Space(10)]
+        public bool isPlayerCar = false;
         [Header("Suspension")]
         [Space(10)]
         public float springForce = 30000f;
@@ -133,15 +134,21 @@ namespace Ashsvp
         {
             if (CanDrive && CanAccelerate)
             {
-                accelerationInput = Input.GetAxis("Vertical");
-                steerInput = Input.GetAxis("Horizontal");
-                brakeInput = Input.GetAxis("Jump");
+                if (isPlayerCar)
+                {
+                    accelerationInput = Input.GetAxis("Vertical");
+                    steerInput = Input.GetAxis("Horizontal");
+                    brakeInput = Input.GetAxis("Jump");
+                }
             }
             else if(CanDrive && !CanAccelerate)
             {
-                accelerationInput = 0;
-                steerInput = Input.GetAxis("Horizontal");
-                brakeInput = Input.GetAxis("Jump");
+                if (isPlayerCar)
+                {
+                    accelerationInput = 0;
+                    steerInput = Input.GetAxis("Horizontal");
+                    brakeInput = Input.GetAxis("Jump");
+                }
             }
             else
             {
@@ -149,7 +156,6 @@ namespace Ashsvp
                 steerInput = 0;
                 brakeInput = 1;
             }
-
         }
 
         void FixedUpdate()
