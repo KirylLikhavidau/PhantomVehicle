@@ -13,6 +13,7 @@ namespace Cars
         [SerializeField] protected SimcadeVehicleController Controller;
         [SerializeField] protected Button StartButton;
         [SerializeField] protected Rigidbody RigidBody;
+        [SerializeField] private AudioSource[] _audios;
 
         protected Vector3 DefaultPosition;
 
@@ -25,19 +26,35 @@ namespace Cars
         {
             StartButton.onClick.AddListener(() =>
             {
+                foreach (var audio in _audios)
+                    audio.mute = false;
                 RigidBody.linearVelocity = Vector3.zero;
                 RigidBody.transform.position = DefaultPosition;
                 RigidBody.transform.rotation = Quaternion.identity;
             });
+
+            Trigger.CarFinished += (obj) =>
+            {
+                foreach (var audio in _audios)
+                    audio.mute = true;
+            };
         }
         protected virtual void OnDisable()
         {
             StartButton.onClick.RemoveListener(() =>
             {
+                foreach (var audio in _audios)
+                    audio.mute = false;
                 RigidBody.linearVelocity = Vector3.zero;
                 RigidBody.transform.position = DefaultPosition;
                 RigidBody.transform.rotation = Quaternion.identity;
             });
+
+            Trigger.CarFinished -= (obj) =>
+            {
+                foreach (var audio in _audios)
+                    audio.mute = true;
+            };
         }
     }
 }

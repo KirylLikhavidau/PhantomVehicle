@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\GitHub\\PhantomVehicle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|c:\\github\\phantomvehicle\\assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|C:\\GitHub\\PhantomVehicle\\assets\\scripts\\finishzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|C:\\GitHub\\PhantomVehicle\\assets\\scripts\\inputrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\UIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|C:\\GitHub\\PhantomVehicle\\assets\\resources\\ash assets\\sim-cade vehicle physics\\scripts\\simcadevehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59BAA92B-66C7-1853-0267-837EBE2C94B1}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\ash assets\\sim-cade vehicle physics\\scripts\\simcadevehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\github\\phantomvehicle\\assets\\scripts\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\Car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\assets\\scripts\\phantomcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\phantomcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\PhantomCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PhantomCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\assets\\scripts\\playercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\playercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\PlayerCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\InputRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InputRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\FinishZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FinishZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,14 +72,12 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIController.cs",
               "ToolTip": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\UIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T18:58:06.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T18:58:06.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\Car.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Car.cs",
@@ -91,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FinishZone.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\FinishZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FinishZone.cs",
@@ -103,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PlayerCar.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\PlayerCar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCar.cs",
@@ -115,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "PhantomCar.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\PhantomCar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PhantomCar.cs",
@@ -127,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SimcadeVehicleController.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Resources\\Ash Assets\\Sim-Cade Vehicle Physics\\Scripts\\SimcadeVehicleController.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Ash Assets\\Sim-Cade Vehicle Physics\\Scripts\\SimcadeVehicleController.cs",
@@ -139,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InputRecorder.cs",
               "DocumentMoniker": "C:\\GitHub\\PhantomVehicle\\Assets\\Scripts\\InputRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputRecorder.cs",

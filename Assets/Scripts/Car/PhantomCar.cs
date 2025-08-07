@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Inputs;
 
@@ -24,7 +24,7 @@ namespace Cars
             {
                 _isRaceStarted = true;
                 CacheCollections();
-                await Task.Delay(100);
+                await UniTask.Delay(100);
                 Controller.enabled = true;
             });
 
@@ -45,7 +45,7 @@ namespace Cars
             {
                 _isRaceStarted = true;
                 CacheCollections();
-                await Task.Delay(1000);
+                await UniTask.Delay(1000);
                 Controller.enabled = true;
             });
 
